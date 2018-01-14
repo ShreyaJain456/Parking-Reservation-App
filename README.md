@@ -6,10 +6,11 @@ The database of both of them is stored in firebase, realtime database.
 For authentication:
 
 User :  
-            E-mail      -  shreya@gmail.com 
-            Password - shreya
+E-mail -  shreya@gmail.com 
+Password - shreya
 
 Parking providers :
 
-            E-mail      -  newdelhi@client.com 
-            Password -  newdelhi
+ E-mail -  newdelhi@client.com 
+ Password -  newdelhi
+            
