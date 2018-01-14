@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellpc.parkingreservation.Reserve_Booking2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/vehicle_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Number :"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/charges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charges"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/reservefinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserve"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Extra Rs.5 charges for reserving slot"
+        android:textSize="15dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="15dp"/>
+</LinearLayout>
